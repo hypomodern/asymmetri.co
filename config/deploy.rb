@@ -6,7 +6,7 @@ set :target, ENV["TARGET"] || "master"
 role :web, "skunkworks.hypomodern.com"
 
 namespace :deploy do
-  namespace :hypnocube do
+  namespace :asymmetrico do
     set :application, "asymmetri.co"
     set :app_path, "/var/sites/#{application}"
     set :current_path, "/var/#{application}-git"
